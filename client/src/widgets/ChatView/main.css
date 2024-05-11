@@ -1,0 +1,9 @@
+.chat__message {
+    height: calc(100svh - 50px - 25px * 2 - 104px - 20px * 2 - 30px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
